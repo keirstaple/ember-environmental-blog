@@ -1,1 +1,15 @@
-{{yield}}
+<li>
+  <h2>{{blog.title}} by {{blog.author}}.</h2>
+  <h4>{{blog.date}}</h4>
+  <div class="image">
+    <img src={{blog.image}} alt={{blog.title}} />
+  </div>
+  <p>
+    {{blog.content}}
+  </p>
+    <!-- <p>{{#link-to blog}} More..{{/link-to}} -->
+    
+  {{update-blog blog=blog update="update"}}
+  <button {{action 'delete' blog}}>Delete Post</button>
+
+</li>

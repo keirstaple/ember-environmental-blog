@@ -1,7 +1,8 @@
 <h1>Welcome to our environmental blog</h1>
-
 <ul>
   {{#each model as |blog|}}
-    <li>{{blog.title}} by {{blog.author}}</li>
+    {{blog-tile blog=blog update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+{{new-blog save="save"}}
