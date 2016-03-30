@@ -1,0 +1,8 @@
+<h2>{{blog.title}} {{blog.author}}</h2>
+
+<img src="{{blog.image}}" alt="{{blog.title}}" />
+<p>
+  {{blog.content}}
+</p>
+
+  <button {{action 'delete' blog}}>Delete Post</button>
