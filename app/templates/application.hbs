@@ -1,11 +1,12 @@
-<header>
-  {{#link-to 'index'}}Home{{/link-to}}
-  {{#link-to 'about'}}About{{/link-to}}
-  {{#link-to 'contact'}}Contact{{/link-to}}
+<header class="header">
+  {{#link-to 'index' }}<span class="headerLink">Home</span>{{/link-to}}
+  {{#link-to 'about' }}<span class="headerLink">About</span>{{/link-to}}
+  {{#link-to 'contact' }}<span class="headerLink">Contact</span>{{/link-to}}
 </header>
 
 {{outlet}}
 
+<br>
 <footer>
   &copy; Andrew Telleria and Keir Staple
 </footer>

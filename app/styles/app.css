@@ -1,0 +1,34 @@
+.container {
+  background: url('../public/background.jpg');
+  background-size: cover;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #00cc99;
+  color: pink;
+  height: 5vh;
+}
+
+.headerLink{
+  color: #DBDBDB;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.blogFeed {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.blogTile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px red solid;
+
+}

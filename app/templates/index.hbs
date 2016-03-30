@@ -1,8 +1,12 @@
-<h1>Welcome to our environmental blog</h1>
-<ul>
-  {{#each model as |blog|}}
-    {{blog-tile blog=blog update="update" destroyPost="destroyPost"}}
-  {{/each}}
-</ul>
+<div class="container">
+  <h1>Welcome to our environmental blog</h1>
+  <div class="blogFeed">
+    <ul>
+      {{#each model as |blog|}}
+        {{blog-tile blog=blog update="update" destroyPost="destroyPost"}}
+      {{/each}}
+    </ul>
 
-{{new-blog save="save"}}
+    {{new-blog save="save"}}
+  </div>
+</div>

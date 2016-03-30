@@ -1,11 +1,10 @@
-<li>
-  <h2>{{#link-to 'blog' blog.id}}{{blog.title}} by {{blog.author}}.{{/link-to}}</h2>
-  <h4>{{blog.date}}</h4>
-
-<img src="{{blog.image}}" alt="{{blog.title}}" />
-
-
-  <p>
-    {{blog.content}}
-  </p>
-</li>
+<div>
+  <li class="blogTile">
+    <h2>{{#link-to 'blog' blog.id}}{{blog.title}} by {{blog.author}}.{{/link-to}}</h2>
+    <h4>{{blog.date}}</h4>
+    <img src="{{blog.image}}" alt="{{blog.title}}" />
+    <p>
+      {{blog.content}}
+    </p>
+  </li>
+</div>
