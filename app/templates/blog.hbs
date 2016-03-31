@@ -4,3 +4,7 @@
 
 <h2>Comments</h2>
 {{new-comment saveComment="saveComment" blog=model}}
+
+{{#each model.comments as |comment|}}
+  {{comment.name}}
+{{/each}}
