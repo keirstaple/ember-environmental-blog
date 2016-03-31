@@ -6,5 +6,7 @@
 {{new-comment saveComment="saveComment" blog=model}}
 
 {{#each model.comments as |comment|}}
-  {{comment.name}}
+  <p>Name: <strong>{{comment.name}}</strong></p>
+  Date: {{comment.date}}<br>
+  Comment: {{comment.comment}}
 {{/each}}
