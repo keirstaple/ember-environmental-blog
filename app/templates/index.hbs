@@ -2,11 +2,24 @@
   <h1>Welcome to our environmental blog</h1>
   <div class="blogFeed">
     <ul>
-      {{#each model as |blog|}}
+      {{#each model.blog as |blog|}}
         {{blog-tile blog=blog update="update" destroyPost="destroyPost"}}
       {{/each}}
     </ul>
 
     {{new-blog save="save"}}
+
+    <h2>Authors</h2>
+
+    <ul>
+      {{#each model.comment as |comment|}}
+        {{comment-tile comment=comment}}
+      {{/each}}
+    </ul>
+
+    {{new-comment saveComment="saveComment"}}
+
+    <hr>
+
   </div>
 </div>

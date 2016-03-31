@@ -2,7 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.findAll('blog');
+    return Ember.RSVP.hash({
+      comment: this.store.findAll('comment'),
+      blog: this.store.findAll('blog')
+    })
   },
 
   actions: {
@@ -14,6 +17,12 @@ export default Ember.Route.extend({
     save(params) {
       var newBlog = this.store.createRecord('blog', params);
       newBlog.save();
+      this.transitionTo('index');
+    },
+
+    saveComment(params) {
+      var newComment = this.store.createRecord('comment', params);
+      newComment.save();
       this.transitionTo('index');
     },
 

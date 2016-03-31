@@ -6,9 +6,18 @@
   "content": "Boyan Slat is a Dutch entrepreneur and inventor who creates technologies to tackle global issues of sustainability. He is the founder and CEO of The Ocean Cleanup, where he is responsible for overall strategy and cleanup technology development. Boyan Slat has been recognized as one of the 20 Most Promising Young Entrepreneurs Worldwide (Intel EYE50), and was crowned 2014 Champion of the Earth, the United Nations' highest environmental accolade. In 2015, HM King Harald of Norway awarded Boyan the maritime industry's Young Entrepreneur Award, and Foreign Policy magazine included Boyan in their 2015 list of Global Thinkers."
   }, {
   "title": "5 Ways to Help Save the Bees",
-  "author": "Ryan Bergeron, CNN",
+  "author": "Jose Quervo",
   "date": "03/12/2015",
   "image": "http://i2.cdn.turner.com/cnnnext/dam/assets/150303190001-01-save-the-bees-exlarge-169.jpg",
   "content": "Bees might bring out a stinging sensation of fear in some, but the little critters play a vital role in our everyday life. Through pollination, bees help produce many of our specialty crops like almonds, berries, fruits and vegetables. It's estimated that bees are responsible for about one in every three bites of food in the United States. That's a crop value of $15 billion to $18 billion. But things are not very sweet in the beehives these days."
-  }]
+  }],
+  "comments": [{
+    "name": "Jose",
+    "date": "3-30-2016",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }, {
+      "name": "Greg",
+      "date": "3-29-2016",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }]
 }

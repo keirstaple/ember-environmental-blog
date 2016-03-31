@@ -14,9 +14,9 @@ export default Ember.Component.extend({
           date: this.get('date'),
           image: this.get('image'),
           content: this.get('content')
-        }
+        };
       this.set('addNewBlog', false),
-      this.sendAction('save', params)
+      this.sendAction('save', params);
     }
   }
 });
