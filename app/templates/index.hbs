@@ -6,20 +6,7 @@
         {{blog-tile blog=blog update="update" destroyPost="destroyPost"}}
       {{/each}}
     </ul>
-
     {{new-blog save="save"}}
-
-    <h2>Authors</h2>
-
-    <ul>
-      {{#each model.comment as |comment|}}
-        {{comment-tile comment=comment}}
-      {{/each}}
-    </ul>
-
-    {{new-comment saveComment="saveComment"}}
-
-    <hr>
 
   </div>
 </div>

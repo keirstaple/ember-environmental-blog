@@ -23,7 +23,7 @@ export default Ember.Route.extend({
     saveComment(params) {
       var newComment = this.store.createRecord('comment', params);
       newComment.save();
-      this.transitionTo('index');
+      this.transitionTo('blog');
     },
 
     update(blog, params) {

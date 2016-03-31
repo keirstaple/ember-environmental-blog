@@ -6,3 +6,11 @@
 </p>
 
   <button {{action 'delete' blog}}>Delete Post</button>
+
+  
+  <ul>
+    {{#each model.blog.comments as |comment|}}
+      {{comment-tile comment=comment}}
+    {{/each}}
+  </ul>
+  <hr>
